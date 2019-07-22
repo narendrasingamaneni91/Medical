@@ -59,9 +59,6 @@
              <outputDirectory>target</outputDirectory>
             </configuration>
         </plugin>
-         <project>
-  <reporting>
-    <plugins>
       <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
@@ -75,9 +72,6 @@
           </reportSet>
         </reportSets>
       </plugin>
-    </plugins>
-  </reporting>
-</project>
     </plugins> 
     <finalName>${project.artifactId}${project.version}</finalName>
   </build>
