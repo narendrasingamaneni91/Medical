@@ -7,6 +7,10 @@
   <version>3.6.1</version>
   <name>DiagnosticCentre Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <properties>
+        <jacoco.version>0.7.5.201505241946</jacoco.version>
+        <junit.version>4.12</junit.version>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
