@@ -122,5 +122,17 @@
 		</releases>		
 	</pluginRepository>
   </pluginRepositories> 
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>EC2AMAZ-PUE6PGN-releases</name>
+        <url>http://54.193.106.223:8081/artifactory/Qentelli-poc</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>EC2AMAZ-PUE6PGN-snapshots</name>
+        <url>http://54.193.106.223:8081/artifactory/Qentelli-poc</url>
+    </snapshotRepository>
+</distributionManagement>
 
 </project>
